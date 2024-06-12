@@ -1,5 +1,7 @@
 # Mesh Gradient Playground
 
+> This project is still under development, and the installable release will be released later. You can clone the code and run it locally first.
+
 ## Requirements
 
 - macOS 15
