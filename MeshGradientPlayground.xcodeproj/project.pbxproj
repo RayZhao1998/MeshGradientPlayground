@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D79FB12E2C1950A900096C34 /* MeshGradientPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB12D2C1950A900096C34 /* MeshGradientPlaygroundApp.swift */; };
+		D79FB1302C1950A900096C34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB12F2C1950A900096C34 /* ContentView.swift */; };
+		D79FB1322C1950A900096C34 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB1312C1950A900096C34 /* Item.swift */; };
+		D79FB1342C1950AA00096C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FB1332C1950AA00096C34 /* Assets.xcassets */; };
+		D79FB1382C1950AA00096C34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FB1372C1950AA00096C34 /* Preview Assets.xcassets */; };
+		D79FB1422C1950AA00096C34 /* MeshGradientPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB1412C1950AA00096C34 /* MeshGradientPlaygroundTests.swift */; };
+		D79FB14C2C1950AB00096C34 /* MeshGradientPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB14B2C1950AB00096C34 /* MeshGradientPlaygroundUITests.swift */; };
+		D79FB14E2C1950AB00096C34 /* MeshGradientPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB14D2C1950AB00096C34 /* MeshGradientPlaygroundUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D79FB13E2C1950AA00096C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FB1222C1950A900096C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79FB1292C1950A900096C34;
+			remoteInfo = MeshGradientPlayground;
+		};
+		D79FB1482C1950AB00096C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FB1222C1950A900096C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79FB1292C1950A900096C34;
+			remoteInfo = MeshGradientPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D79FB12A2C1950A900096C34 /* MeshGradientPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshGradientPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FB12D2C1950A900096C34 /* MeshGradientPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientPlaygroundApp.swift; sourceTree = "<group>"; };
+		D79FB12F2C1950A900096C34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D79FB1312C1950A900096C34 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D79FB1332C1950AA00096C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D79FB1352C1950AA00096C34 /* MeshGradientPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeshGradientPlayground.entitlements; sourceTree = "<group>"; };
+		D79FB1372C1950AA00096C34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D79FB13D2C1950AA00096C34 /* MeshGradientPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshGradientPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FB1412C1950AA00096C34 /* MeshGradientPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientPlaygroundTests.swift; sourceTree = "<group>"; };
+		D79FB1472C1950AB00096C34 /* MeshGradientPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshGradientPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FB14B2C1950AB00096C34 /* MeshGradientPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientPlaygroundUITests.swift; sourceTree = "<group>"; };
+		D79FB14D2C1950AB00096C34 /* MeshGradientPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79FB1272C1950A900096C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FB13A2C1950AA00096C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FB1442C1950AB00096C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79FB1212C1950A900096C34 = {
+			isa = PBXGroup;
+			children = (
+				D79FB12C2C1950A900096C34 /* MeshGradientPlayground */,
+				D79FB1402C1950AA00096C34 /* MeshGradientPlaygroundTests */,
+				D79FB14A2C1950AB00096C34 /* MeshGradientPlaygroundUITests */,
+				D79FB12B2C1950A900096C34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79FB12B2C1950A900096C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79FB12A2C1950A900096C34 /* MeshGradientPlayground.app */,
+				D79FB13D2C1950AA00096C34 /* MeshGradientPlaygroundTests.xctest */,
+				D79FB1472C1950AB00096C34 /* MeshGradientPlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79FB12C2C1950A900096C34 /* MeshGradientPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				D79FB12D2C1950A900096C34 /* MeshGradientPlaygroundApp.swift */,
+				D79FB12F2C1950A900096C34 /* ContentView.swift */,
+				D79FB1312C1950A900096C34 /* Item.swift */,
+				D79FB1332C1950AA00096C34 /* Assets.xcassets */,
+				D79FB1352C1950AA00096C34 /* MeshGradientPlayground.entitlements */,
+				D79FB1362C1950AA00096C34 /* Preview Content */,
+			);
+			path = MeshGradientPlayground;
+			sourceTree = "<group>";
+		};
+		D79FB1362C1950AA00096C34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D79FB1372C1950AA00096C34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D79FB1402C1950AA00096C34 /* MeshGradientPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79FB1412C1950AA00096C34 /* MeshGradientPlaygroundTests.swift */,
+			);
+			path = MeshGradientPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		D79FB14A2C1950AB00096C34 /* MeshGradientPlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D79FB14B2C1950AB00096C34 /* MeshGradientPlaygroundUITests.swift */,
+				D79FB14D2C1950AB00096C34 /* MeshGradientPlaygroundUITestsLaunchTests.swift */,
+			);
+			path = MeshGradientPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79FB1292C1950A900096C34 /* MeshGradientPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79FB1512C1950AB00096C34 /* Build configuration list for PBXNativeTarget "MeshGradientPlayground" */;
+			buildPhases = (
+				D79FB1262C1950A900096C34 /* Sources */,
+				D79FB1272C1950A900096C34 /* Frameworks */,
+				D79FB1282C1950A900096C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeshGradientPlayground;
+			productName = MeshGradientPlayground;
+			productReference = D79FB12A2C1950A900096C34 /* MeshGradientPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79FB13C2C1950AA00096C34 /* MeshGradientPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79FB1542C1950AB00096C34 /* Build configuration list for PBXNativeTarget "MeshGradientPlaygroundTests" */;
+			buildPhases = (
+				D79FB1392C1950AA00096C34 /* Sources */,
+				D79FB13A2C1950AA00096C34 /* Frameworks */,
+				D79FB13B2C1950AA00096C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79FB13F2C1950AA00096C34 /* PBXTargetDependency */,
+			);
+			name = MeshGradientPlaygroundTests;
+			productName = MeshGradientPlaygroundTests;
+			productReference = D79FB13D2C1950AA00096C34 /* MeshGradientPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D79FB1462C1950AB00096C34 /* MeshGradientPlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79FB1572C1950AB00096C34 /* Build configuration list for PBXNativeTarget "MeshGradientPlaygroundUITests" */;
+			buildPhases = (
+				D79FB1432C1950AB00096C34 /* Sources */,
+				D79FB1442C1950AB00096C34 /* Frameworks */,
+				D79FB1452C1950AB00096C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79FB1492C1950AB00096C34 /* PBXTargetDependency */,
+			);
+			name = MeshGradientPlaygroundUITests;
+			productName = MeshGradientPlaygroundUITests;
+			productReference = D79FB1472C1950AB00096C34 /* MeshGradientPlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79FB1222C1950A900096C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D79FB1292C1950A900096C34 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D79FB13C2C1950AA00096C34 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D79FB1292C1950A900096C34;
+					};
+					D79FB1462C1950AB00096C34 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D79FB1292C1950A900096C34;
+					};
+				};
+			};
+			buildConfigurationList = D79FB1252C1950A900096C34 /* Build configuration list for PBXProject "MeshGradientPlayground" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79FB1212C1950A900096C34;
+			productRefGroup = D79FB12B2C1950A900096C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79FB1292C1950A900096C34 /* MeshGradientPlayground */,
+				D79FB13C2C1950AA00096C34 /* MeshGradientPlaygroundTests */,
+				D79FB1462C1950AB00096C34 /* MeshGradientPlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79FB1282C1950A900096C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FB1382C1950AA00096C34 /* Preview Assets.xcassets in Resources */,
+				D79FB1342C1950AA00096C34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FB13B2C1950AA00096C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FB1452C1950AB00096C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79FB1262C1950A900096C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FB1302C1950A900096C34 /* ContentView.swift in Sources */,
+				D79FB1322C1950A900096C34 /* Item.swift in Sources */,
+				D79FB12E2C1950A900096C34 /* MeshGradientPlaygroundApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FB1392C1950AA00096C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FB1422C1950AA00096C34 /* MeshGradientPlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FB1432C1950AB00096C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FB14E2C1950AB00096C34 /* MeshGradientPlaygroundUITestsLaunchTests.swift in Sources */,
+				D79FB14C2C1950AB00096C34 /* MeshGradientPlaygroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D79FB13F2C1950AA00096C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79FB1292C1950A900096C34 /* MeshGradientPlayground */;
+			targetProxy = D79FB13E2C1950AA00096C34 /* PBXContainerItemProxy */;
+		};
+		D79FB1492C1950AB00096C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79FB1292C1950A900096C34 /* MeshGradientPlayground */;
+			targetProxy = D79FB1482C1950AB00096C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D79FB14F2C1950AB00096C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D79FB1502C1950AB00096C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D79FB1522C1950AB00096C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeshGradientPlayground/MeshGradientPlayground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeshGradientPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = LCS264YR65;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ninjiacoder.MeshGradientPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D79FB1532C1950AB00096C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeshGradientPlayground/MeshGradientPlayground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeshGradientPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = LCS264YR65;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ninjiacoder.MeshGradientPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D79FB1552C1950AB00096C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LCS264YR65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ninjiacoder.MeshGradientPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeshGradientPlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeshGradientPlayground";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D79FB1562C1950AB00096C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LCS264YR65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ninjiacoder.MeshGradientPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeshGradientPlayground.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeshGradientPlayground";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D79FB1582C1950AB00096C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LCS264YR65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ninjiacoder.MeshGradientPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = MeshGradientPlayground;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D79FB1592C1950AB00096C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LCS264YR65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ninjiacoder.MeshGradientPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = MeshGradientPlayground;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79FB1252C1950A900096C34 /* Build configuration list for PBXProject "MeshGradientPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FB14F2C1950AB00096C34 /* Debug */,
+				D79FB1502C1950AB00096C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79FB1512C1950AB00096C34 /* Build configuration list for PBXNativeTarget "MeshGradientPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FB1522C1950AB00096C34 /* Debug */,
+				D79FB1532C1950AB00096C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79FB1542C1950AB00096C34 /* Build configuration list for PBXNativeTarget "MeshGradientPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FB1552C1950AB00096C34 /* Debug */,
+				D79FB1562C1950AB00096C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79FB1572C1950AB00096C34 /* Build configuration list for PBXNativeTarget "MeshGradientPlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FB1582C1950AB00096C34 /* Debug */,
+				D79FB1592C1950AB00096C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79FB1222C1950A900096C34 /* Project object */;
+}
