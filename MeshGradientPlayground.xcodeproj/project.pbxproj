@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D79FB12E2C1950A900096C34 /* MeshGradientPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB12D2C1950A900096C34 /* MeshGradientPlaygroundApp.swift */; };
 		D79FB1302C1950A900096C34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB12F2C1950A900096C34 /* ContentView.swift */; };
-		D79FB1322C1950A900096C34 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB1312C1950A900096C34 /* Item.swift */; };
 		D79FB1342C1950AA00096C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FB1332C1950AA00096C34 /* Assets.xcassets */; };
 		D79FB1382C1950AA00096C34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FB1372C1950AA00096C34 /* Preview Assets.xcassets */; };
 		D79FB1422C1950AA00096C34 /* MeshGradientPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79FB1412C1950AA00096C34 /* MeshGradientPlaygroundTests.swift */; };
@@ -38,7 +37,6 @@
 		D79FB12A2C1950A900096C34 /* MeshGradientPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshGradientPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79FB12D2C1950A900096C34 /* MeshGradientPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientPlaygroundApp.swift; sourceTree = "<group>"; };
 		D79FB12F2C1950A900096C34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D79FB1312C1950A900096C34 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D79FB1332C1950AA00096C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D79FB1352C1950AA00096C34 /* MeshGradientPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeshGradientPlayground.entitlements; sourceTree = "<group>"; };
 		D79FB1372C1950AA00096C34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				D79FB12D2C1950A900096C34 /* MeshGradientPlaygroundApp.swift */,
 				D79FB12F2C1950A900096C34 /* ContentView.swift */,
-				D79FB1312C1950A900096C34 /* Item.swift */,
 				D79FB1332C1950AA00096C34 /* Assets.xcassets */,
 				D79FB1352C1950AA00096C34 /* MeshGradientPlayground.entitlements */,
 				D79FB1362C1950AA00096C34 /* Preview Content */,
@@ -263,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D79FB1302C1950A900096C34 /* ContentView.swift in Sources */,
-				D79FB1322C1950A900096C34 /* Item.swift in Sources */,
 				D79FB12E2C1950A900096C34 /* MeshGradientPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +437,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.ninjiacoder.MeshGradientPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,7 +476,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.ninjiacoder.MeshGradientPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";

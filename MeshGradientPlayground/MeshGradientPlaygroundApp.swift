@@ -5,14 +5,13 @@
 //  Created by ZiyuanZhao on 2024/6/12.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct MeshGradientPlaygroundApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -28,5 +27,6 @@ struct MeshGradientPlaygroundApp: App {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
+        .windowStyle(.hiddenTitleBar)
     }
 }
